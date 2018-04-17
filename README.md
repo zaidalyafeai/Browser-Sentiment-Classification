@@ -6,7 +6,7 @@
 
 * After that you convert the trained keras model into a model.json file in order to load it in the browser. The conversion is done using the command 
 
-tensorflowjs_converter --input_format keras keras.h5 output/
+`tensorflowjs_converter --input_format keras keras.h5 output/`
 
 * The output foulder will then contain one model.json file and 5 group* files which contains the saved weights of the model. These weights are referenced using variables from the json file 
 
